@@ -1,7 +1,8 @@
 <?php
-require "../vendor/autoload.php";
-require "../src/wcs/Hello.php";
+require '../src/wcs/Hello.php';
 
-$hello = new wcs\Hello();
-echo $hello;
+$text = new App\Wcs\Hello();
+
+echo $text->talk();
+
 

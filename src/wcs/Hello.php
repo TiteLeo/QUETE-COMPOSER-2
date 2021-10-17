@@ -1,13 +1,11 @@
 <?php
-namespace wcs;
+namespace App\wcs;
 
 class Hello
 {
-    private string $talk='Hello world';
-
-    public function __toString()
-     {
-         return $this->talk;
-     }
-
+    public function talk(): string
+    {
+        return 'Hello World';
+    }
 }
+

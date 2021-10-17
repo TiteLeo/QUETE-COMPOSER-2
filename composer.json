@@ -3,8 +3,7 @@
     "description": "Projet quete composer",
     "autoload": {
         "psr-4": {
-            "Eleonore\\Quetecomposer\\": "src/wcs",
-            "Hello\\":"src/wcs/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -13,6 +12,5 @@
             "email": "eleonoregouze33@gmail.com"
         }
     ],
-    "require": {"michelf/php-markdown": "1.4.*@dev"
-    }
+    "require": {}
 }
